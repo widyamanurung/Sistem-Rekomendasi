@@ -10,8 +10,8 @@ Proyek ini menggunakan dataset yang berisi informasi tempat wisata di kawasan Da
 1. **Collaborative Filtering (CF) dengan Deep Learning**  
    Model ini menggunakan teknik pembelajaran mesin berbasis interaksi pengguna (ratings atau behavior) untuk memprediksi rekomendasi yang relevan. Deep Learning digunakan untuk meningkatkan kemampuan model dalam menangkap pola-pola kompleks pada data pengguna dan tempat wisata.
 
-2. **Content-Based Filtering (CBF) dengan NLP**  
-   Model ini menggunakan deskripsi atau atribut dari tempat wisata itu sendiri, seperti nama, lokasi, fasilitas, dan jenis wisata. NLP digunakan untuk menganalisis dan memproses teks deskripsi untuk membangun fitur tempat wisata dan memberikan rekomendasi berbasis konten.
+2. **Alternating Least Squares (ALS**)
+   model ini merupakan   algoritma yang sering digunakan dalam sistem rekomendasi, khususnya untuk faktorisasi matriks. ALS sangat berguna dalam menangani data matriks yang jarang (sparse data) seperti data rating pengguna pada item
 
 3. **Graph Neural Network (GNN)**  
    Model ini menggunakan Graph Neural Network untuk menggali hubungan kompleks antar tempat wisata dan pengguna dalam bentuk graf. Pendekatan ini diusulkan untuk meningkatkan kualitas rekomendasi dengan menangkap keterkaitan antar entitas di dalam jaringan.
