@@ -1,6 +1,6 @@
 # Sistem Rekomendasi Tempat Wisata Toba
 
-Proyek ini bertujuan untuk membangun sistem rekomendasi untuk tempat wisata di kawasan Danau Toba menggunakan beberapa teknik machine learning , yaitu Collaborative Filtering (CF) dengan Deep Learning, Content-Based Filtering (CBF) dengan Natural Language Processing (NLP), dan model terbaru menggunakan Graph Neural Network (GNN).
+Proyek ini bertujuan untuk membangun sistem rekomendasi untuk tempat wisata di kawasan Danau Toba menggunakan beberapa teknik machine learning , yaitu Collaborative Filtering (CF) dengan GNN (Graph Neural Network) , Content-Based Filtering (CBF) dengan Alternating Least Squares (ALS) , dan Proposed Model yaitu  menggunakan Deep Learning
 
 ## Deskripsi Proyek
 
@@ -13,7 +13,7 @@ Proyek ini menggunakan dataset yang berisi informasi tempat wisata di kawasan Da
 2. **Alternating Least Squares (ALS**)
    model ini merupakan   algoritma yang sering digunakan dalam sistem rekomendasi, khususnya untuk faktorisasi matriks. ALS sangat berguna dalam menangani data matriks yang jarang (sparse data) seperti data rating pengguna pada item
 
-3.  **Collaborative Filtering (CF) dengan Deep Learning**  
+3.  **Deep Learning**  
    Model ini menggunakan teknik pembelajaran mesin berbasis interaksi pengguna (ratings atau behavior) untuk memprediksi rekomendasi yang relevan. Deep Learning digunakan untuk meningkatkan kemampuan model dalam menangkap pola-pola kompleks pada data pengguna dan tempat wisata.
 
 
