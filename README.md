@@ -9,9 +9,11 @@ Proyek ini menggunakan dataset yang berisi informasi tempat wisata di kawasan Da
 ### Model yang Digunakan:
 1.**Alternating Least Squares (ALS**)
    model ini merupakan   algoritma yang sering digunakan dalam sistem rekomendasi, khususnya untuk faktorisasi matriks. ALS sangat berguna dalam menangani data matriks yang jarang (sparse data) seperti data rating pengguna pada item
+   
 2. **Graph Neural Network (GNN)**  
    Model ini menggunakan Graph Neural Network untuk menggali hubungan kompleks antar tempat wisata dan pengguna dalam bentuk graf. Pendekatan ini diusulkan untuk meningkatkan kualitas rekomendasi dengan menangkap keterkaitan antar entitas di dalam jaringan.
-3.  **Deep Learning**  
+   
+4.  **Deep Learning**  
    Model ini menggunakan teknik pembelajaran mesin berbasis interaksi pengguna (ratings atau behavior) untuk memprediksi rekomendasi yang relevan. Deep Learning digunakan untuk meningkatkan kemampuan model dalam menangkap pola-pola kompleks pada data pengguna dan tempat wisata.
 
 
